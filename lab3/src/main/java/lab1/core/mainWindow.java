@@ -24,19 +24,6 @@ public class mainWindow {
     private static final int infinite = 1000;
 
     public static void main(String[] args) throws IOException, InterruptedException {
-        Scanner in = new Scanner(System.in);
-		//System.out.println("Choose the input mode: 0 for file, 1 for console");
-		System.out.println("mode: 0 for file, 1 for console");
-        //int option = in.nextInt();
-        int option = 0;
-        if (option == 0) {
-            System.out.println("Input file name(suffixed included):");
-            do {
-                //fileName = in.next();
-                fileName = "data.txt";
-            } while (!fileName.contains(".txt") && !fileName.contains(".bin"));
-        }
-        Graph G = createDirectedGraph(fileName);
         //show graph
 //		System.out.println("vertex:");
 //		for(int i =0;i<G.getVertexNum();i++){

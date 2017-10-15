@@ -34,5 +34,6 @@
             <version>8.9</version>
         </dependency>
     </dependencies>
-    <name>lab1</name>
+    <name>lab3</name>
+	<changes>B4</changes>
 </project>
