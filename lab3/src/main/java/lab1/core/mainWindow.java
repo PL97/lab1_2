@@ -26,7 +26,6 @@ public class mainWindow {
     public static void main(String[] args) throws IOException, InterruptedException {
         Scanner in = new Scanner(System.in);
 		//System.out.println("Choose the input mode: 0 for file, 1 for console");
-		System.out.println("mode: 0 for file, 1 for console");
         //int option = in.nextInt();
         int option = 0;
         if (option == 0) {

@@ -118,10 +118,7 @@ public class BigImageController implements Initializable {
             stage.setX(event.getScreenX() - xOffset);
             stage.setY(event.getScreenY() - yOffset);
         } else {
-//            System.out.println(event.getSceneX() +" "+ startX+" "+ stageX);
-//            stage.setX(stageX);
-//            stage.setY(stageY);
-//            System.out.println(stage.getWidth());
+			System.out.println("new changes in branch B1");
             stage.setWidth(event.getSceneX() + startX);
             stage.setHeight(event.getSceneY() + startY);
 //                        System.out.println(stage.getX());
