@@ -45,6 +45,7 @@ public class BigImageController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
+		//change in file2 for C4 branch
         biImage.setPreserveRatio(true);
         rootPanel.addEventHandler(MouseEvent.MOUSE_MOVED, e -> {
             Scene scene = rootPanel.getScene();
